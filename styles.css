@@ -1,0 +1,39 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Fonte estilo 8-bit */
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.race-track {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #444;
+    margin: 20px 0;
+}
+
+.horse {
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    text-align: center;
+}
+
+.horse img {
+    width: 100%;
+}
+
+#startRace {
+    background-color: #f00;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+}
